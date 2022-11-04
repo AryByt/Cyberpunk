@@ -1,0 +1,32 @@
+.header {
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > div {
+  margin: 10px;
+}
+.punkLogo {
+  width: 200px;
+}
+.searchBar {
+  background-color: #1c1c1e; 
+  flex: 1;
+  height: 50px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+.searchIconContainer {
+margin: 10px;
+}
+.searchInput {
+  background-color:transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  color: white;
+}
